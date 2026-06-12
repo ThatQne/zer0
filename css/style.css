@@ -206,6 +206,8 @@ h1, h2, h3 { letter-spacing: -0.035em; line-height: 1.05; font-weight: 700; }
   position: absolute;
   inset: 0;
   pointer-events: none;
+  /* desktop: glow bleeds freely. mobile clips it (see @media 960) to stop
+     the blobs widening the layout viewport. */
 }
 .hero-bg::before, .hero-bg::after {
   content: '';
@@ -1844,6 +1846,7 @@ button.ps-item:active .ps-claimer { transform: scale(0.8); }
   .hero .sub { margin-left: auto; margin-right: auto; }
   .hero-cta { justify-content: center; }
   .paywith { justify-content: center; }
+  .hero-bg { overflow: hidden; } /* clip glow blobs — they widen the layout viewport on narrow screens */
   .nav-links { display: none; }
 
   .chip-paid { right: -16px; }
