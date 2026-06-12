@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zer0 — Scan. Pay. Done.</title>
+  <meta name="description" content="Zer0 is a QR-native payments network. Zero fees between people. Instant storefronts for businesses. Every code cryptographically signed." />
+  <meta property="og:title" content="Zer0 — Scan. Pay. Done." />
+  <meta property="og:description" content="QR-native payments. Zero fees between people. Instant storefronts. Join the waitlist." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Outfit:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'><rect width='64' height='64' rx='15' fill='%234d90f0'/><rect x='14.5' y='14.5' width='35' height='35' rx='11' stroke='white' stroke-width='6.5'/><rect x='26.5' y='26.5' width='11' height='11' rx='3.5' fill='white'/></svg>" />
+</head>
+<body>
+  <div class="site-grid" aria-hidden="true"></div>
+
+  <!-- ── Nav ─────────────────────────────────────────────── -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#top">
+        <svg class="logo-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect x="10" y="10" width="44" height="44" rx="14" stroke="currentColor" stroke-width="8"/>
+          <rect x="24" y="24" width="16" height="16" rx="5" fill="currentColor"/>
+        </svg>
+        <span class="logo-text">Zer0</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Product</a>
+        <a href="#business">For business</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <a class="btn btn-small magnetic" href="#waitlist"><span>Get early access</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ── Hero ──────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow stagger" style="--d:0"><span class="pulse-dot"></span>Early access · Spring 2026</p>
+        <h1>
+          <span class="w stagger" style="--d:1">Scan.</span>
+          <span class="w stagger" style="--d:2">Pay.</span>
+          <span class="w serif stagger" style="--d:3">Done.</span>
+        </h1>
+        <p class="sub stagger" style="--d:4">
+          The payment network with nothing in the way. Zero fees between people,
+          a storefront in seconds for business — and every code cryptographically
+          signed so money only goes where you point it.
+        </p>
+        <div class="hero-cta stagger" style="--d:5">
+          <a class="btn btn-primary magnetic" href="#waitlist"><span>Join the waitlist</span></a>
+          <a class="btn btn-ghost magnetic" href="#features"><span>See the product</span></a>
+        </div>
+        <p class="hero-note stagger" style="--d:6">Free for people. Forever. No asterisk.</p>
+        <div class="paywith stagger" style="--d:7" aria-label="Accepted payment methods">
+          <span class="pw-label">Pay from</span>
+          <span class="pw-item">Balance</span>
+          <span class="pw-item">Bank</span>
+          <span class="pw-item">Apple&nbsp;Pay</span>
+          <span class="pw-item">Google&nbsp;Pay</span>
+          <span class="pw-item">Card</span>
+          <span class="pw-item pw-soon">
+            <span class="pw-coins" aria-hidden="true">₿ Ξ ◎</span>
+            Crypto
+            <i>soon</i>
+          </span>
+        </div>
+      </div>
+
+      <!-- Phone + floating proof chips -->
+      <div class="hero-stage stagger" style="--d:3">
+        <div class="tilt-wrap" id="tilt">
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="ps-statusbar"><span>9:41</span><span class="ps-batt"></span></div>
+              <div class="ps-greeting">
+                <span class="ps-hi">Good morning</span>
+                <span class="ps-name">Alex</span>
+              </div>
+              <div class="ps-balance">
+                <span class="ps-bal-label">Balance</span>
+                <span class="ps-bal-amount">$1,240<span class="ps-cents">.50</span></span>
+              </div>
+              <div class="ps-qr-card">
+                <svg class="ps-qr" viewBox="0 0 25 25" aria-hidden="true"></svg>
+                <div class="ps-qr-avatar">A</div>
+                <div class="ps-scanline" aria-hidden="true"></div>
+              </div>
+              <div class="ps-actions">
+                <div class="ps-action">
+                  <div class="ps-action-ic">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V6a2 2 0 0 1 2-2h3M15 4h3a2 2 0 0 1 2 2v3M20 15v3a2 2 0 0 1-2 2h-3M9 20H6a2 2 0 0 1-2-2v-3"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                  </div>Scan
+                </div>
+                <div class="ps-action">
+                  <div class="ps-action-ic">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                  </div>Send
+                </div>
+                <div class="ps-action">
+                  <div class="ps-action-ic">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><path d="M14 14h3v3h-3zM17 17h3v3h-3z" fill="currentColor" stroke="none"/></svg>
+                  </div>My QR
+                </div>
+                <div class="ps-action">
+                  <div class="ps-action-ic">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10 5.2 4h13.6L20 10M5.5 10v10h13V10M10 20v-5h4v5"/></svg>
+                  </div>Shops
+                </div>
+              </div>
+              <div class="ps-recents">
+                <div class="ps-recent"><span class="ps-dot blue">J</span><span class="ps-r-name">Jordan</span><span class="ps-r-amt in">+$24.00</span></div>
+                <div class="ps-recent"><span class="ps-dot green">B</span><span class="ps-r-name">Blue Bottle</span><span class="ps-r-amt">−$6.75</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- floating glass chips -->
+          <div class="chip chip-paid">
+            <span class="chip-ic green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4 10-11"/></svg>
+            </span>
+            <span class="chip-body"><b>$24.00 received</b><i>from Jordan · just now</i></span>
+          </div>
+          <div class="chip chip-verified">
+            <span class="chip-ic blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 7.7-7 9.5C8 18.7 5 15.6 5 11V6l7-3z"/><path d="M9 11.5l2 2 4-4.5"/></svg>
+            </span>
+            <span class="chip-body"><b>Signature verified</b><i>Ed25519 · 12ms</i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Ticker ────────────────────────────────────────── -->
+    <section class="ticker" aria-hidden="true">
+      <div class="ticker-track" id="ticker">
+        <div class="ticker-strip">
+          <span>Zero fees between people</span><i>◆</i>
+          <span>Every QR signed</span><i>◆</i>
+          <span>No card data stored</span><i>◆</i>
+          <span>Scan or be scanned</span><i>◆</i>
+          <span>Works with your POS</span><i>◆</i>
+          <span>In person &amp; online</span><i>◆</i>
+          <span>BTC · ETH · SOL · USDC</span><i>◆</i>
+          <span>Sub-second verification</span><i>◆</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Bento features ────────────────────────────────── -->
+    <section class="features" id="features">
+      <div class="section-head reveal">
+        <span class="index">01</span>
+        <h2>Trust, engineered.<br/><span class="muted">Not promised.</span></h2>
+      </div>
+
+      <div class="bento">
+        <!-- big: signed QR -->
+        <div class="cell cell-qr reveal">
+          <div class="cell-visual">
+            <div class="mini-qr-wrap">
+              <svg class="mini-qr" viewBox="0 0 25 25" aria-hidden="true"></svg>
+              <div class="mini-qr-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4 10-11"/></svg>
+              </div>
+            </div>
+            <div class="sig-line"><span class="sig-ok">signature valid</span><span class="sig-mono">ed25519 · 0x4f…a2</span></div>
+          </div>
+          <h3>QR codes that can't lie</h3>
+          <p>Cryptographically signed. Tampered codes fail before a cent moves.</p>
+        </div>
+
+        <!-- 0% -->
+        <div class="cell cell-zero reveal" style="--rd:1">
+          <span class="giant" data-count="0">0<i>%</i></span>
+          <h3>Fees between people</h3>
+          <p>Not a promo — businesses fund the network, people never do.</p>
+        </div>
+
+        <!-- storefront -->
+        <div class="cell cell-shop reveal" style="--rd:2">
+          <div class="mini-shop">
+            <div class="mini-row"><span class="mini-thumb t1"></span><span class="mini-lines"><b></b><i></i></span><span class="mini-price">$8.50</span></div>
+            <div class="mini-row"><span class="mini-thumb t2"></span><span class="mini-lines"><b></b><i></i></span><span class="mini-price">$14</span></div>
+            <div class="mini-pay">Pay · $22.50</div>
+          </div>
+          <h3>Nothing to install</h3>
+          <p>Customers scan and pay in the browser — no download, no account, nothing to type.</p>
+        </div>
+
+        <!-- API -->
+        <div class="cell cell-api reveal" id="business" style="--rd:1">
+          <div class="code" aria-hidden="true">
+            <div class="code-line"><span class="code-method">GET</span><span class="code-path">/v1/biz/orders?status=OPEN</span></div>
+            <div class="code-line"><span class="code-resp">→ 200 · 3 open orders · table 7</span><span class="code-caret"></span></div>
+          </div>
+          <h3>Plugs into what you run</h3>
+          <p>One API for your POS or your webstore — sync menus, poll orders, sell in person and online.</p>
+        </div>
+
+        <!-- privacy -->
+        <div class="cell cell-vault reveal" style="--rd:2">
+          <div class="vault-visual" id="vault-visual">
+            <div class="vault-card">
+              <div class="vc-top">
+                <span class="vc-chip"></span>
+                <span class="vc-brand">VISA</span>
+              </div>
+              <span class="vc-num">
+                <span class="vc-raw">4242&nbsp;••••&nbsp;••••&nbsp;5678</span>
+                <span class="vc-mask" aria-hidden="true">••••&nbsp;••••&nbsp;••••&nbsp;••••</span>
+              </span>
+              <span class="vc-row"><i>EXP 12/28</i><b>ALEX M</b></span>
+            </div>
+            <div class="vault-shield">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 7.7-7 9.5C8 18.7 5 15.6 5 11V6l7-3z"/><path class="vc-tick" d="M9 11.5l2 2 4-4.5"/></svg>
+              <span>Tokenized · never stored</span>
+            </div>
+          </div>
+          <h3>Your card, nowhere</h3>
+          <p>Card numbers tokenized end-to-end — we never store them, so a breach of us can't leak what we never had.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Use cases ─────────────────────────────────────── -->
+    <section class="usecases" id="usecases">
+      <div class="section-head reveal">
+        <span class="index">02</span>
+        <h2>However you sell,<br/><span class="muted">it already fits.</span></h2>
+        <p class="head-note">Counter, table, pop-up, or online checkout — same signed codes.</p>
+      </div>
+
+      <div class="uc-grid">
+
+        <!-- pop-up storefront -->
+        <article class="uc-card reveal" style="--rd:0">
+          <div class="uc-box" id="uc-popup">
+            <div class="sc-stand">
+              <div class="sc-qr-tile"><svg class="uc-qr" viewBox="0 0 25 25" aria-hidden="true"></svg></div>
+              <span class="sc-stand-name">Maya's Bake Sale</span>
+              <span class="sc-stand-total">today&nbsp;·&nbsp;<b id="popup-total">$23.50</b></span>
+            </div>
+            <div class="uc-toasts" id="popup-toasts" aria-hidden="true"></div>
+          </div>
+          <h3>A storefront in 60 seconds</h3>
+          <p>Take payments from your phone, or print a code at every table. No terminal, no onboarding call.</p>
+        </article>
+
+        <!-- tables -->
+        <article class="uc-card reveal" style="--rd:1">
+          <div class="uc-box" id="uc-tables">
+            <div class="uc-box-head"><span id="tables-count">4 of 6 seated</span><span class="uc-live"><i></i>live</span></div>
+            <div class="sc-tables" id="tables-grid">
+              <button class="sc-table busy" type="button" aria-pressed="true"><i></i>T1</button>
+              <button class="sc-table" type="button" aria-pressed="false"><i></i>T2</button>
+              <button class="sc-table busy" type="button" aria-pressed="true"><i></i>T3</button>
+              <button class="sc-table busy hot" type="button" aria-pressed="true"><i></i>T7</button>
+              <button class="sc-table" type="button" aria-pressed="false"><i></i>T8</button>
+              <button class="sc-table busy" type="button" aria-pressed="true"><i></i>T9</button>
+            </div>
+            <div class="sc-ticket show" id="tables-ticket">
+              <span class="sc-ticket-head" id="ticket-head">Table 7 · new order</span>
+              <span class="sc-ticket-row" id="ticket-row1">2× Shakshuka</span>
+              <span class="sc-ticket-row" id="ticket-row2">1× Cold Brew</span>
+              <span class="sc-ticket-foot">→ kitchen · 0.2s</span>
+            </div>
+          </div>
+          <h3>Tables that run themselves</h3>
+          <p>Guests order and pay from their seat, the kitchen sees it instantly — nobody stands in a line.</p>
+        </article>
+
+        <!-- temporary cards -->
+        <article class="uc-card reveal" style="--rd:1">
+          <div class="uc-box" id="uc-tempcard">
+            <div class="tc-stage" id="tc-stage">
+              <div class="tc-toast" id="tc-toast"><b id="tc-amt">$42.00</b><span>charged</span></div>
+              <div class="tc-card is-front" id="tc-card-a">
+                <span class="tc-badge">Single use</span>
+                <span class="tc-chip"></span>
+                <span class="tc-num">•••• 4821</span>
+                <span class="tc-meta"><span class="tc-label">Flight booking</span><b class="tc-exp">24h</b></span>
+              </div>
+              <div class="tc-card is-back" id="tc-card-b" aria-hidden="true">
+                <span class="tc-badge">Single use</span>
+                <span class="tc-chip"></span>
+                <span class="tc-num">•••• 7392</span>
+                <span class="tc-meta"><span class="tc-label">Hotel deposit</span><b class="tc-exp">48h</b></span>
+              </div>
+            </div>
+          </div>
+          <h3>Temporary cards</h3>
+          <p>Spin up a single-use card for one trip — charged, then burned. Nothing left behind.</p>
+        </article>
+
+        <!-- analytics -->
+        <article class="uc-card reveal" style="--rd:2">
+          <div class="uc-box" id="uc-chart">
+            <div class="sc-chart" id="chart-bars">
+              <div class="sc-bar" style="--h:34%" data-v="$96"><span>6a</span></div>
+              <div class="sc-bar" style="--h:58%" data-v="$159"><span>7a</span></div>
+              <div class="sc-bar peak" style="--h:96%" data-v="$258"><span>8a</span></div>
+              <div class="sc-bar" style="--h:74%" data-v="$201"><span>9a</span></div>
+              <div class="sc-bar" style="--h:42%" data-v="$117"><span>10a</span></div>
+              <div class="sc-bar" style="--h:55%" data-v="$151"><span>11a</span></div>
+              <div class="sc-bar" style="--h:66%" data-v="$179"><span>12p</span></div>
+            </div>
+            <div class="sc-insight" id="chart-insight">Peak 8–9am · avg basket $11.20 · oat milk low</div>
+          </div>
+          <h3>Know your busy hours</h3>
+          <p>Peaks, baskets, sell-outs — live from every scan, not a midnight spreadsheet.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── Showcase: ordering ────────────────────────────── -->
+    <section class="showcase">
+      <div class="showcase-phone reveal">
+        <div class="phone phone-tilt">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="ps-statusbar"><span>12:18</span><span class="ps-batt"></span></div>
+            <div class="ps-shop-head">
+              <span class="ps-shop-name">Aria's Kitchen</span>
+              <span class="ps-table"><i></i>Table 7 · 3 paying</span>
+            </div>
+            <div class="ps-menu" id="split-list">
+              <button class="ps-item" type="button" data-price="8.50" data-owner="0"><div class="ps-thumb t1"></div><div class="ps-item-info"><b>Truffle Fries</b><span>Hand-cut, parmesan</span></div><span class="ps-claimer o0">A</span><span class="ps-price">$8.50</span></button>
+              <button class="ps-item" type="button" data-price="14.00" data-owner="1"><div class="ps-thumb t2"></div><div class="ps-item-info"><b>Shakshuka</b><span>Wood-fired, sourdough</span></div><span class="ps-claimer o1">J</span><span class="ps-price">$14.00</span></button>
+              <button class="ps-item" type="button" data-price="5.00" data-owner="2"><div class="ps-thumb t3"></div><div class="ps-item-info"><b>Cold Brew</b><span>Single origin</span></div><span class="ps-claimer o2">S</span><span class="ps-price">$5.00</span></button>
+              <button class="ps-item" type="button" data-price="6.50" data-owner="0"><div class="ps-thumb t4"></div><div class="ps-item-info"><b>Baklava</b><span>Pistachio, honey</span></div><span class="ps-claimer o0">A</span><span class="ps-price">$6.50</span></button>
+            </div>
+            <div class="ps-shares" id="split-shares">
+              <span class="ps-share"><i class="ps-share-dot o0">A</i><b data-share="0">$15.00</b></span>
+              <span class="ps-share"><i class="ps-share-dot o1">J</i><b data-share="1">$14.00</b></span>
+              <span class="ps-share"><i class="ps-share-dot o2">S</i><b data-share="2">$5.00</b></span>
+            </div>
+            <div class="ps-paybar">
+              <span>Pay your share</span>
+              <b id="split-mine">$15.00</b>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase-copy">
+        <div class="section-head reveal">
+          <span class="index">03</span>
+          <h2>Scan the QR code.<br/><span class="muted">Split the bill if you want.</span></h2>
+        </div>
+        <p class="sub reveal" style="--rd:1">
+          Everyone scans the same code, claims their items, and pays exactly
+          their share — no app, no account, no IOU math at the table.
+        </p>
+        <ul class="checklist reveal" style="--rd:2">
+          <li>Claim items with a tap — shares update live</li>
+          <li>Everyone pays their own part, one code</li>
+          <li>Anything unclaimed splits evenly</li>
+        </ul>
+
+        <div class="guest-compare reveal" style="--rd:3">
+          <div class="gc-col">
+            <span class="gc-head">As a guest</span>
+            <ul>
+              <li>Pay shops, order at tables</li>
+              <li>Claim your split items</li>
+              <li>Apple / Google Pay in browser</li>
+            </ul>
+            <span class="gc-foot">No app, no signup — but you can't receive or hold money</span>
+          </div>
+          <div class="gc-col gc-acct">
+            <span class="gc-head">With an account</span>
+            <ul>
+              <li>Everything guests can, plus</li>
+              <li>Receive &amp; hold a balance</li>
+              <li>Free instant cash-out, temp cards</li>
+            </ul>
+            <span class="gc-foot">One 60-second verification, then it's yours</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── AI ────────────────────────────────────────────── -->
+    <section class="ai" id="ai">
+      <div class="section-head reveal">
+        <span class="index">04</span>
+        <h2>AI that does the boring parts.<br/><span class="muted">Not a gimmick bolted on.</span></h2>
+      </div>
+
+      <div class="ai-grid">
+        <div class="ai-card ai-feature reveal">
+          <div class="ai-shot" id="ai-shot">
+            <div class="ai-photo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h3l1.5-2h9L18 7h3v13H3z"/><circle cx="12" cy="13" r="3.6"/></svg>
+              <span>menu.jpg</span>
+              <i class="ai-beam" aria-hidden="true"></i>
+            </div>
+            <div class="ai-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </div>
+            <div class="ai-parsed">
+              <div class="ai-prow"><b>Truffle Fries</b><i>$8.50</i></div>
+              <div class="ai-prow"><b>Shakshuka</b><i>$14</i><span class="tag">V</span></div>
+              <div class="ai-prow"><b>Cold Brew</b><i>$5</i></div>
+              <span class="ai-meter">38 items parsed · 2.1s</span>
+            </div>
+          </div>
+          <h3>Menu from a photo</h3>
+          <p>Snap your paper menu — AI builds the storefront in seconds. Items, prices, dietary tags.</p>
+        </div>
+
+        <div class="ai-card reveal" style="--rd:1">
+          <div class="ai-brief" id="ai-brief">
+            <div class="ab-head">
+              <svg class="ab-mark" viewBox="0 0 64 64" fill="none"><rect x="10" y="10" width="44" height="44" rx="14" stroke="currentColor" stroke-width="8"/><rect x="24" y="24" width="16" height="16" rx="5" fill="currentColor"/></svg>
+              <b>Morning brief</b><span>7:00 AM</span>
+            </div>
+            <div class="ab-line"><span>Revenue</span><b id="ab-rev" data-target="1240">$0</b><i>+12%</i></div>
+            <div class="ab-line"><span>Orders</span><b id="ab-ord" data-target="86">0</b><i>+8</i></div>
+            <svg class="ab-spark" viewBox="0 0 120 28" preserveAspectRatio="none"><path d="M0 22 L17 18 L34 20 L51 9 L68 13 L85 6 L102 10 L120 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span class="ab-note">Busiest 8–9am · oat milk sold out by noon</span>
+          </div>
+          <h3>A plain-English morning brief</h3>
+          <p>Yesterday's numbers, delivered like a text — no dashboard digging.</p>
+        </div>
+
+        <div class="ai-card reveal" style="--rd:2">
+          <div class="ai-sugs">
+            <button class="sug" type="button" data-val="120"><span class="sug-dot"></span><span class="sug-text">Prep +20 croissants before 8am</span><span class="sug-act">✓</span></button>
+            <button class="sug" type="button" data-val="60"><span class="sug-dot"></span><span class="sug-text">Reorder oat milk by Thursday</span><span class="sug-act">✓</span></button>
+            <button class="sug" type="button" data-val="45"><span class="sug-dot"></span><span class="sug-text">Markdown day-old pastries 30%</span><span class="sug-act">✓</span></button>
+            <div class="sug-payoff" id="sug-payoff"><b>$0</b>/wk reclaimed</div>
+          </div>
+          <h3>Suggestions that pay off</h3>
+          <p>Grounded in your own sales — accept one, it's done.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Pricing — the receipt ─────────────────────────── -->
+    <section class="pricing" id="pricing">
+      <div class="pricing-copy">
+        <div class="section-head reveal">
+          <span class="index">05</span>
+          <h2>So where's the catch?<br/><span class="muted">Here's the receipt.</span></h2>
+        </div>
+        <p class="sub reveal" style="--rd:1">
+          People never pay Zer0 — not to send, receive, split, or cash out.
+          Businesses pay 1% — not 2.6% + 10¢ — in person or online, with the
+          first $1,000 every month on us. That's the whole model.
+        </p>
+        <div class="price-rows reveal" style="--rd:2">
+          <div class="price-row">
+            <span class="price-who">People</span>
+            <span class="price-amt">$0<i>forever</i></span>
+            <span class="price-what">Send, receive, split, cash out</span>
+          </div>
+          <div class="price-row">
+            <span class="price-who">Business</span>
+            <span class="price-amt">1% flat<i>no other fees</i></span>
+            <span class="price-what">Counter, tables, online — first $1,000/mo free</span>
+          </div>
+          <div class="price-row">
+            <span class="price-who">Pro tools</span>
+            <span class="price-amt">$19 / mo<i>optional</i></span>
+            <span class="price-what">Advanced analytics, AI brief, API keys</span>
+          </div>
+        </div>
+        <p class="price-ticks reveal" style="--rd:3">12ms signature check · scan to paid in under 30s · 100% server-verified</p>
+      </div>
+
+      <div class="pricing-visual reveal" style="--rd:1">
+        <div class="receipt" aria-label="Example receipt: sending $100 costs nothing">
+          <div class="rc-head" style="--pd:0">
+            <svg class="rc-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true"><rect x="10" y="10" width="44" height="44" rx="14" stroke="currentColor" stroke-width="8"/><rect x="24" y="24" width="16" height="16" rx="5" fill="currentColor"/></svg>
+            <b>ZER0</b><span>#0000001</span>
+          </div>
+          <div class="rc-rule" style="--pd:1"></div>
+          <div class="rc-row" style="--pd:2"><span>You send</span><b>$100.00</b></div>
+          <div class="rc-row zero" style="--pd:3"><span>Network fee</span><b>$0.00</b></div>
+          <div class="rc-row zero" style="--pd:4"><span>Card surcharge</span><b>$0.00</b></div>
+          <div class="rc-row zero" style="--pd:5"><span>Subscription</span><b>$0.00</b></div>
+          <div class="rc-rule" style="--pd:6"></div>
+          <div class="rc-row total" style="--pd:7"><span>Jordan gets</span><b>$100.00</b></div>
+          <div class="rc-foot" style="--pd:8">signed · verified in 12ms · settled</div>
+          <div class="rc-stamp" aria-hidden="true">0% FEES</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Waitlist ──────────────────────────────────────── -->
+    <section class="waitlist" id="waitlist">
+      <div class="waitlist-card reveal">
+        <svg class="wl-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect x="10" y="10" width="44" height="44" rx="14" stroke="currentColor" stroke-width="8"/>
+          <rect x="24" y="24" width="16" height="16" rx="5" fill="currentColor"/>
+        </svg>
+        <h2>Be first in line.</h2>
+        <p class="sub">Launching soon, city by city. One email when it's your turn — nothing else.</p>
+
+        <form class="wl-form" id="wl-form" novalidate>
+          <input type="email" id="wl-email" name="email" placeholder="you@example.com" required autocomplete="email" />
+          <button class="btn btn-primary magnetic" type="submit" id="wl-btn"><span>Join waitlist</span></button>
+        </form>
+        <p class="wl-msg" id="wl-msg" role="status"></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-brand">
+        <svg class="footer-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect x="10" y="10" width="44" height="44" rx="14" stroke="currentColor" stroke-width="8"/>
+          <rect x="24" y="24" width="16" height="16" rx="5" fill="currentColor"/>
+        </svg>
+        <span class="logo-text small">Zer0</span>
+      </span>
+      <span class="footer-note">© 2026 Zer0 · Payments processed by licensed partners · Card data never touches our servers</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
